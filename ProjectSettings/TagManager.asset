@@ -40,9 +40,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2639898233
+    locked: 0
   - name: Switch
     uniqueID: 2636440987
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Switch Walls
+    uniqueID: 290398037
+    locked: 0
+  - name: Walls
+    uniqueID: 2614526279
+    locked: 0
+  - name: Door
+    uniqueID: 735185463
+    locked: 0
+  - name: Player
+    uniqueID: 651941711
     locked: 0

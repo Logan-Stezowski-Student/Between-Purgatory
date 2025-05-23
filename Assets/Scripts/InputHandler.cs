@@ -5,6 +5,7 @@ using UnityEngine;
 public class InputHandler : MonoBehaviour
 {
     PlayerInteraction playerInteraction;
+    Player player;
     // Start is called before the first frame update
     void Start()
     {

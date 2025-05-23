@@ -16,6 +16,7 @@ public class PlayerInteraction : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
+        
         string displayText = "";
         targetInteraction = null;
         if (other.gameObject.CompareTag("Door")) 
@@ -29,9 +30,11 @@ public class PlayerInteraction : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Chest"))
         {
+
             targetInteraction = other.gameObject.GetComponent<InteractionObject>();
             if (targetInteraction && targetInteraction.enabled)
             {
+                print(other.gameObject.tag);
                 displayText = targetInteraction.GetInteractionText();
             }
             SetInteractableNameText(displayText);
